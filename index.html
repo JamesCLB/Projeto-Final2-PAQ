@@ -1,14 +1,32 @@
 <!DOCTYPE html>
 <html lang="pt-BR">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" >
-    <title>Atividade Lista de compras-PAQ</title>
-    <link rel="stylesheet" href="ccs/style.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Listing</title>
+    <link rel="stylesheet" href="css/style.css">
 </head>
+
 <body>
-    
+
+    <header>
+        <div class="divProduto">
+            <label for="nomeProduto">Produtos:</label>
+            <input type="text" id="nomeProduto" class="nomeProduto">
+            <input type="button" value="Inserir" onclick="Verificar()">
+        </div>
+        <div class="logo"><img src="static/logo.png" width="100px" alt="100px" /></div>
+    </header>
+        <div class="listaProduto">
+
+            <ul><li><input type="checkbox">Cenoura</li></ul>
+        </div>
+    <footer>
+        <p></p>
+    </footer>
+    <script src="js/script.js"></script>
 </body>
-<script src="js/script.js"></script>
+
 </html>

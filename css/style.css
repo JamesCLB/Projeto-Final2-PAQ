@@ -1,0 +1,51 @@
+body {
+    background-image: linear-gradient(rgb(26, 5, 117), rgb(136, 8, 255));
+    height: 581px;
+    font: normal 17pt Arial;
+}
+
+header {
+    background-image: linear-gradient(rgb(26, 5, 117), rgb(136, 8, 255));
+    color: beige;
+
+    height: 70px;
+
+
+}
+
+footer {
+    color: beige;
+    text-align: center;
+    font-style: initial;
+
+}
+
+div.divProduto {
+    text-align: center;
+    width: 70%;
+    display: inline-block;
+
+}
+
+div.logo {
+    text-align: right;
+    width: 25%;
+    display: inline-block;
+
+}
+
+div.divProduto input[type=button] {
+    background-color: #1900ff;
+    /* Green */
+    border: none;
+    color: white;
+    padding: 10px 25px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+}
+
+div.listaProduto ul {
+    list-style-type: none;
+}
