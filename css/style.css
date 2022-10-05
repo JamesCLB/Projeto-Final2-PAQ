@@ -35,8 +35,7 @@ div.logo {
 
 div.divProduto input[type=button] {
     background-color: #1900ff;
-    /* Green */
-    border: none;
+    border-radius: 9px;
     color: white;
     padding: 10px 25px;
     text-align: center;
@@ -70,4 +69,8 @@ div.totalCompras {
     background-color: blueviolet;
     float: left;
     width: 20%;
+}
+
+.imgButton {
+    background-image: image();
 }

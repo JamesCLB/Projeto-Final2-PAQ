@@ -12,6 +12,7 @@ function inserirProduto() {
     var btnExcluir = document.createElement("input")
     btnExcluir.setAttribute("type", "button")
     btnExcluir.setAttribute("value", "X")
+    btnExcluir.setAttribute("img", "X")
     btnExcluir.addEventListener("click", function () {
         liProduto.remove()
     })
