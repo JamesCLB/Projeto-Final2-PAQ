@@ -1,6 +1,5 @@
 <!DOCTYPE html>
 <html lang="pt-BR">
-
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -8,25 +7,26 @@
     <title>Listing</title>
     <link rel="stylesheet" href="css/style.css">
 </head>
-
 <body>
-
     <header>
         <div class="divProduto">
             <label for="nomeProduto">Produtos:</label>
             <input type="text" id="nomeProduto" class="nomeProduto">
-            <input type="button" value="Inserir" onclick="Verificar()">
+            <input type="button" value="Inserir" onclick="inserirProduto()">
         </div>
         <div class="logo"><img src="static/logo.png" width="100px" alt="100px" /></div>
     </header>
-        <div class="listaProduto">
-
-            <ul><li><input type="checkbox">Cenoura</li></ul>
-        </div>
+    <div class="listaProduto">
+        <ul id="produtos">
+        </ul>
+    </div>
+    <div class="totalCompras">
+        <p>Total das compras:</p>
+        <p id="valorCompras">R$ 0,00</p>
+    </div>
     <footer>
         <p></p>
     </footer>
     <script src="js/script.js"></script>
 </body>
-
 </html>
