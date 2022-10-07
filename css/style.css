@@ -86,3 +86,6 @@ div.totalCompras input[type=button]  {
     display: inline-block;
     font-size: 16px;
 }
+#ok {
+    display: none;
+}
