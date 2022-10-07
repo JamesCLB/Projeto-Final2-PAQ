@@ -18,14 +18,23 @@
     </header>                                        
     <div class="listaProduto">
         <ul id="produtos">
+            <p id="fot"> Lista dos produtos: </p>
         </ul>                                                    
     </div>
     <div class="totalCompras">
         <p>Total das compras:</p>
         <span>R$</span> <span id="valorCompras">0.00</span>
-        <p>Dinheiro inicial:</p>
-        <span>R$</span> <input type="text" id="dinheiroPessoa"></input> <p>0.00</p>
-
+    </div>
+    <div class="totalCompras">
+        <span>Dinheiro inicial:</span>
+        <input type="text" id="dinheiroInicial"></input>
+        <input id="ok" type="button" value="ok" onclick="dinheiroDoPobre()">
+        <span>Quantia de dinheiro inicial:</span>
+        <span>R$ </span><span id="DinheiroPessoa">0.00</span>
+    </div>
+    <div class="totalCompras">
+        <p>Quantia de dinheiro pós gastos:</p>
+        <span>R$</span> <span id="dinheiroFinal">0.00</span>
     </div>
     <footer>
         <p></p>

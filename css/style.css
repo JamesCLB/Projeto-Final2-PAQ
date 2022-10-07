@@ -46,7 +46,9 @@ div.divProduto input[type=button] {
 
 div.listaProduto ul {
     list-style-type: none;
+    
 }
+
 
 div.listaProduto {
     box-shadow: 3px 2px 20px black;
@@ -73,4 +75,14 @@ div.totalCompras {
 
 .imgButton {
     background-image: image();
+}
+div.totalCompras input[type=button]  {
+    background-color: #1900ff;
+    border-radius: 9px;
+    color: white;
+    padding: 5px 5px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
 }
